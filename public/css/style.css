@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    --fuente: 'Roboto', sans-serif;
+    --parrafos: 12px;
+    --titulos: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+}
+
+body {
+    background-color: var(--gris-claro);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    font-size: var(--parrafos);
+}
+
+.burger-menu {
+    background-color: var(--celeste);
+}
+
+footer.footer_content {
+    width: 100%;
+    padding: 50px 10px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer article {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+footer article i {
+    font-size: 2em;
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: var(--amarillo);
+    padding: 25px o;
+}
+
+.logo {
+    width: 20%;
+}
+
+.search {
+    margin-left: 15px;
+    width: 50px;
+    margin-bottom: 10px;
+
+}
